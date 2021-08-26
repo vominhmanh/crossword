@@ -703,5 +703,15 @@ div.align {
       .login-register-bar .login-nav-tab.active,
       .login-register-bar .register-nav-tab.active {
         height: 60px; } }
+.crossword td {
+  width: 40px;
+  height: 40px; }
+  .crossword td.word {
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center; }
+  .crossword td.cross {
+    background-color: #b2d235; }
 
 /*# sourceMappingURL=style.css.map */
