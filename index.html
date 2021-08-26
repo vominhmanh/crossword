@@ -34,7 +34,7 @@
             <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-light">
                 <a class="navbar-brand" href="#">
                     <div class="img-logo font-weight-bold">
-                        TRÒ CHƠI Ô CHỮ
+                        KHỞI ĐÔNG: TRÒ CHƠI Ô CHỮ
                     </div>
                     <a class="btn btn-success" href="#" data-toggle="modal" data-target="#loginModal"
                         onclick="cauhoiso()" id="login-btn">ĐOÁN TỪ KHÓA HÀNG DỌC </a>
@@ -247,6 +247,7 @@
 
         function submit( x )
         {
+            event.preventDefault();
             let answer = $( '#answer' ).val().replace( ' ', '' ).toUpperCase();
             switch ( x )
             {
