@@ -599,7 +599,7 @@ div.align {
 .login-register-modal .close-btn {
   position: absolute;
   top: -11px;
-  right: -12px;
+  left: -12px;
   color: #b2d235;
   background-color: white;
   border-radius: 50%;
